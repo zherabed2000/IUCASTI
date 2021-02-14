@@ -28,26 +28,17 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         int style = DialogFragment.STYLE_NORMAL;
         int theme= android.R.style.Theme_Holo_Light_Dialog;
        // setStyle(style,theme);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.dialog_new_note);
         AddNewTask = findViewById(R.id.addtask_btn);
-
-
-    }
-    @Nullable
-    @Override
- public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState){
-        boolean attachRoot;
-        View view = inflater.inflate(R.layout.dialog_new_note, container,attachRoot false);
-        mTitle=view.findViewById((R.id.note_title);
-        mContent=view.findViewById(R.id.note_content);
-        mCreate=view.findViewById(R.id.create);
-        mCancle=view.findViewById(R.id.cancle);
+        mTitle=findViewById((R.id.not_et);
+        mContent=findViewById(R.id.content);
+        mCreate=findViewById(R.id.create);
+        mCancle=findViewById(R.id.cancel);
         mCancle.setOnClickListener(this);
         mCreate.setOnClickListener(this);
 
         //getDialog().setTitle("New Note");
 
-        return view;
 
 
     }
