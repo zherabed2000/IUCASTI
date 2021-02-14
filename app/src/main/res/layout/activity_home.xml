@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/task1_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مهمة رقم 1 "
+        android:textColor="#1430CA"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#1430CA"
+
+        android:id="@+id/task2_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مهمة رقم 1 "
+        android:layout_below="@id/task1_tv"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#1430CA"
+
+        android:id="@+id/task3_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="مهمة رقم 1 "
+        android:layout_below="@id/task2_tv"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#1430CA"
+
+        android:id="@+id/task4_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="مهمة رقم 1 "
+        android:layout_below="@id/task3_tv"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#1430CA"
+
+        android:id="@+id/task5_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="مهمة رقم 1 "
+        android:layout_below="@id/task4_tv"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#1430CA"
+
+        android:id="@+id/task6_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="مهمة رقم 1 "
+        android:layout_below="@id/task5_tv"/>
+<Button
+    android:id="@+id/addtask_btn"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add new Task"
+    android:layout_below="@id/task5_tv"/>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewTAskActivity"
+    android:layout_margin="20dp">
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Name "
+        android:backgroundTint="#3F51B5"/>
+    <EditText
+        android:id="@+id/time_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Period time "
+        android:backgroundTint="#3F51B5"
+        android:layout_below="@id/name_et"/>
+    <EditText
+        android:id="@+id/project_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Project Name "
+        android:backgroundTint="#3F51B5"
+        android:layout_below="@id/time_et"/>
+
+
+
+
+</RelativeLayout>
